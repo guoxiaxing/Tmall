@@ -1,0 +1,713 @@
+/*样式重置*/
+body,ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+.bgcolor{
+	background-color: #f5f5f5;
+}
+a{
+	text-decoration:none;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.common{
+	width:1542px;
+	margin:0 auto;
+}
+/*导航栏样式*/
+.out_nav{
+	background-color:#f2f2f2;
+	height: 40px;
+}
+.nav li{
+	height: 14px;
+	float:left;
+	padding:13px 27px 13px 10px;
+	font:normal 14px/1 "Microsoft YaHei";
+	color:#9b9b9b;
+}
+.nav .nav_enroll{
+	padding-right:425px;
+}
+.nav li a{
+	font:normal 14px/1 "Microsoft YaHei";
+	color:#9b9b9b;
+	text-decoration:none;
+}
+.nav li a:hover{
+	color:red;
+}
+/*清除导航栏浮动*/
+.nav_clear:after{
+	display:block;
+	content: "";
+	clear:both;
+}
+.nav .nav_user{
+	width:74px;
+	padding:13px 10px;
+}
+/*我的淘宝下拉菜单*/
+.nav_user .menu{
+	position: absolute;
+}
+.nav_user p{
+	display:none;
+}
+.nav .nav_user:hover p{
+	display:block;
+
+}
+.nav_user:hover{
+	background-color:white;
+}
+.shopping_car{
+	display:inline-block;
+	width:20px;
+	height:15px;
+	vertical-align:top;
+	background:url("img/shopping_cart.png") no-repeat;
+
+}
+.mobile{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	vertical-align:bottom;
+	background: url("img/mobile_16px_563390_easyicon.net.png") no-repeat;
+}
+.border{
+	padding-right:30px
+	border-right:solid 1px #cccccc;
+	vertical-align:bottom;
+}
+.nav_web{
+	display: inline-block;
+	width:12px;
+	height: 12px;
+	background:url("img/Panel_16px_1181392_easyicon.net.png") no-repeat;
+	background-size: 12px 12px;
+	padding-right:5px;
+}
+/*商家支持下拉菜单*/
+.nav_business .nav_menu{
+	display:none;
+	background-color:white;
+	padding:0 20px 10px;
+}
+.nav_business:hover{
+	background-color: white;
+}
+.nav_business:hover .nav_menu{
+	display:block;
+}
+.nav_business .nav_menu{
+	position:absolute;
+	top:40px;
+}
+.nav_business .nav_menu1,.nav_business .nav_menu2{
+	border-bottom:solid 1px #cccccc;
+}
+/*左侧侧边栏*/
+.sup_box{
+	width:1534px;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+	height:130px;
+	margin:-10px 0 0 -7px;
+}
+/*搜索栏*/
+.search_column{
+	width:782px;
+	height: 50px;
+	margin:48px auto;
+	border:solid 2px #ff0036;
+}
+.search_column .search{
+	width:610px;
+	height: 36px;
+	border:none;
+	padding:7px 0;
+	outline:none;
+	text-indent: 1em;
+	font:normal 20px/36px "Microsoft YaHei";
+}
+.search_column .submit{
+	padding:0;
+	/*margin-left: -4px;*/
+	display:inline-block;
+	font:normal bold 26px/46px "Microsoft YaHei";
+	background-color:#ff0036; 
+	height:50px;
+	width:172px;
+	color:white;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	letter-spacing:8px;
+}
+.search_column .search,.search_column .submit{
+	float:left;
+}
+/*搜索栏下方文字*/
+.option li,.nav_clear li{
+	list-style: none;
+	float: left;.
+}
+ul .search_text{
+	text-decoration: none;
+	font:normal 16px "Microsoft YaHei";
+	padding:0 17px;
+	border-right:solid 1px #cccccc;
+	color: #999999;
+}
+ul .text_border{
+	border:none;
+}
+ul .text_color{
+	color: red;
+}
+.out_text{
+	margin:-35px 0 0 360px;
+}
+
+/*产品分类*/
+.leftside,.classify_column{
+	width:1575px;
+	margin:0 auto;
+}
+.calssify{
+	float:left;
+	width:232px;
+	height: 20px;
+	background-color: #ff0036;
+	font:normal bold 20px/1 "Microsoft YaHei";
+	padding:12px 0 12px 18px;
+	color:white;
+}
+.calssify .icon{
+	display: inline-block;
+	width:18px;
+	height: 18px;
+	margin-right:18px;
+	background:url("img/Panel_16px_white_easyicon.net.png");
+	background-size: 18px 18px;
+}
+.classify_column .option{
+	float:left;
+	padding-left:20px;
+}
+.option li{
+	padding-right:24px;
+}
+.option li a{
+	display:inline-block;
+	text-decoration:none;
+	font:normal 20px/33px "Microsoft YaHei";
+	color:black;
+}
+.option li a:hover{
+	color:red;
+}
+/*左侧侧边栏*/
+.catagory{
+float:left;
+width:250px;
+background-color:rgba(0,0,0,0.5);	
+}
+.catagory li{
+	padding:11px 0;
+	font:normal 20px/1 "Microsoft YaHei";
+}
+.text li{
+	margin-left:18px;
+}
+.catagory a{
+	color:white;
+	text-decoration:none;
+}
+.catagory li:hover .hidden{
+	display:block;
+}
+.catagory li:hover{
+	background-color:white;
+	/*border-bottom:solid 1px #484747;*/
+}
+.catagory li:hover a{
+	color:red;
+}
+.catagory .icon{
+	display: inline-block;
+	vertical-align: top;
+	width:20px;
+	height:23px;
+	margin:0 8px auto 18px;
+	background:url("img/Skirt_30.581632653061px_1141893_easyicon.net.png") no-repeat;
+	background-size:20px 20px;
+}
+/*悬停显示菜单*/
+.catagory .hidden{
+	position:absolute;
+	top:250px;
+	display:none;
+	padding:20px;
+	margin-left:250px;
+	background-color:white;
+}
+.catagory .menu{
+	margin:-10px 0 0 30px;
+	width:635px;
+}
+.inline .inline_text{
+	display: inline-block;
+	font:normal bold 18px/1 "Microsoft YaHei";
+}
+.inline .icon{
+	display: inline-block;
+	width:14px;
+	height:14px;
+	background: url("img/arrow_10.928961748634px_1167930_easyicon.net.png") no-repeat;
+	background-size:12px 14px;
+}
+.menu .text{
+	display: inline-block;
+	margin:-30px 0 0 100px;
+	width:550px;
+	border-bottom:dashed 1px #c0c0c0;
+	margin-bottom: 30px;
+}
+.text li{
+	float:left;
+}
+.catagory .menu .text a{
+	color:#999999;
+}
+.menu .text a:hover{
+	color:#ff6fdf;
+}
+.catagory .menu .text .text_color{
+	color:#ff6fdf;
+}
+.hidden .context{
+	float:left;
+}
+/*鼠标悬停图片部分*/
+
+.hidden .photo{
+	width:300px;
+	margin:-30px 10px 10px 10px;
+	float:left;
+}
+.photo a{
+	display: inline-block;
+}
+.photo .photo_img2{
+	margin:30px 20px;
+}
+/*轮播图*/
+.banner{
+	display: block;
+	background-color:#e8e8e8;
+}
+.banner img{
+	height:585px;
+	display:block;
+	margin: 0 auto;
+}
+/*产品推荐*/
+.bgcolor{
+	padding-top:42px;
+}
+.nav_commend {
+	background-color:white;
+}
+.nav_commend div{
+	float:left;
+	margin-right: 16px;
+}
+.nav_commend .sub1{
+	width:294px;
+}
+.sub1 .text{
+	padding:23px 14px;
+	font:bold 22px/1 "Microsoft YaHei";
+}
+.sub1 span{
+	font-size:14px;
+}
+.sub1 .icon{
+	background:url("img/TB1B7RoaMMPMeJjy1XcXXXpppXa-36-36.png") no-repeat;
+	float:right;
+	background-size: 18px 18px;
+	width:18px;
+	height: 18px;
+	vertical-align:bottom;
+	margin-top:26px;
+}
+.nav_commend .sub2{
+	width:606px;
+}
+.sub2 .more{
+	font-size: 18px;
+	line-height:68px;
+	margin-left:268px;
+}
+.nav_commend .sub3{
+	margin-right:0;
+}
+/*品牌商标*/
+.brand,.tmall_mart{
+	padding-top:18px;
+}
+.brand .sub{
+	float:left;
+	margin:0 1px 1px 0;
+}
+/*天猫超市*/
+/*标题部分*/
+.head .head_left{
+	font:normal 24px/1 "Microsoft YaHei";
+	padding:5px 8px;
+	color:white;
+	background-color: #00b262;
+}
+.head .right{
+	font:normal 16px/38px "Microsoft YaHei";
+
+}
+.right a{
+	display:inline-block;
+	margin-right:36px;
+	color:black;
+}
+.right a:hover{
+	text-decoration: underline;
+}
+/*内容部分*/
+.content{
+	padding-top:14px;
+}
+.content a{
+	display: inline-block;
+}
+.content a img:hover{
+	opacity:0.8;
+}
+.content .left{
+	width:294px;
+	position: relative;
+}
+.left .float{
+	position: absolute;
+	bottom:132px;
+	color:white;
+	font:normal 24px/1 "Microsoft YaHei";
+}
+.float .text1{
+	float:left;
+	background-color: rgba(0,0,0,0.9);
+	text-align:center;
+	padding:30px 22px;
+}
+.float .text2{
+	width:96px;
+	float:left;
+	background-color: rgba(0,0,0,0.6);
+	padding:18px; 
+	text-align: center;
+}
+.content .right{
+	width:1248px;
+}
+.right .sub_box{
+	width:262px;
+	/*height:330px;*/
+	margin-left: 16px;
+	float:left;
+	background-color: white;
+	padding:24px 16px;
+}
+.sub_box .price{
+	font:normal bold 20px/1 "Microsoft YaHei";
+	color:red;
+	text-indent:106px;
+	margin-top: 16px;
+}
+.right .sub_box a{
+	margin-right:0;
+}
+.sub_box:hover{
+	outline:solid 1px red;
+}
+.sub_box .text{
+	width:159px;
+	height:46px;
+	overflow: hidden;
+	text-align:center;
+	margin:0 auto;
+	font-family: "Microsoft YaHei";
+}
+.right .top{
+	margin-top: 16px;
+}
+/*分割图*/
+.apart_img{
+	padding:24px 0 30px 0;
+}
+/*美丽人生*/
+.life_header .minbox{
+	width:6px;
+	height:22px;
+	margin-top: 9px;
+	background-color:#ea5f8d;
+}
+.life_header .left{
+	font:normal 18px/1 "Microsoft YaHei";
+	line-height:38px;
+	margin-bottom: 10px;
+}
+.life_header .word{
+	font-weight:bold;
+	font-size: 22px;
+	padding:0 18px;
+}
+/*猜你喜欢*/
+.like{
+	width:216px;
+	padding-top:50px;
+	margin:0 auto;
+	text-align: center;
+}
+.like .line{
+	margin-top:10px;
+	width:38px;
+	height:1px;
+	background-color:#979797;
+}
+.like .icon{
+	float:left;
+	width: 24px;
+	height:24px;
+	margin-left:10px;
+	line-height:74px;
+	vertical-align:middle;
+	background: url("img/Heart_16px_1194783_easyicon.net.png") no-repeat;
+	background-size: 24px 24px;
+}
+.like .text{
+	font:normal 24px/1 "Microsoft YaHei";
+	color:#666666;
+}
+.image{
+	padding-top: 28px;
+}
+.image .photo{
+	width:242px;
+	background-color: white;
+	padding:28px 28px 0;
+	font:normal 18px/1 "Microsoft YaHei";
+	margin:0 10px 18px 0;
+}
+.photo .text{
+	width:160px;
+	height:50px;
+	color:#666666;
+	text-align: center;
+	margin:0 auto;
+	padding-top:18px;
+}
+.photo .price{
+	padding:28px 0;
+	color:red;
+	text-indent:76px;
+}
+.image .photo:hover{
+	opacity: 0.8;
+	outline:solid 1px red;
+}
+/*结束图标*/
+.end_icon{
+	width:102px;
+	margin: 0 auto;
+	padding-bottom: 14px;
+}
+.end_icon .icon{
+	display: inline-block;
+	width:102px;
+	height:58px;
+	background:url("img/TB1wQDAPXXXXXXgaFXXXXXXXXXX-62-35.png") no-repeat;
+	background-size: 102px 58px;
+}
+/*页尾*/
+/*白色区域*/
+.up_footer{
+	background-color: white;
+	border-top: solid 1px #d1d7dc;
+}
+.footer_common{
+	width:1362px;
+	margin: 0 auto;
+}
+.up_footer .text1{
+	padding:62px 64px;
+	border-bottom: solid 1px #ededed;
+}
+.text1 a{
+	display: inline-block;
+}
+.text1 .left{
+	margin-right:64px;
+}
+.up_footer .text2{
+	padding:28px 0 0 58px;
+	font-family: "Microsoft YaHei";
+	color:#646464;
+}
+.text2 a{
+	display:block;
+	color:#8b8b8b;
+	line-height: 24px;
+}
+.text2 .word_box{
+	margin-right: 220px;
+}
+.text2 h3{
+	margin:12px 0;
+}
+.tmall_icon .icon{
+	margin-top: 100px;
+	display:inline-block;
+	width:90px;
+	height: 32px;
+	background: url("img/下载.jpg") no-repeat;
+	background-size:88px 32px;
+	margin-bottom:-4px;
+}
+/*黑色区域*/
+.down_footer{
+	border-top:solid 2px red;
+	background-color: black;
+	padding-bottom: 24px;
+}
+.down_footer .size{
+	width:1376px;
+	margin:0 auto;
+}
+.footer_text1 a{
+	color:white;
+}
+.down_footer .footer_text1{
+	padding:16px 0;
+	font:normal 14px/1 "Microsoft YaHei";
+}
+.footer_text2 a{
+	color:#a4a4a4;
+}
+.down_footer .footer_text2{
+	margin-top:4px;
+	font:normal 16px/28px "Microsoft YaHei";
+
+}
+.down_footer .footer_img{
+	margin:18px 16px 0 0;
+}
+/*右侧侧边栏*/
+.rightside{
+	position:fixed;
+	padding-top:180px;
+	height:100%;
+	background-color:black;
+	right:0;
+}
+.rightside i,.rightside a{
+	display: block;
+	margin:0 auto;
+}
+.rightside_tmall .tmall_icon{
+	width:40px;
+	height: 40px;
+	background:url("img/下载.png") no-repeat;
+	background-size: 40px 40px;
+}
+.rightside div:hover{
+background-color: red;
+}
+.rightside a{
+	padding:14px 0px;
+}
+.rightside div{
+	padding:0 4px;
+}
+.rightside_shopcar a{
+	border-top: 1px solid #444444;
+	border-bottom: 1px solid #444444;
+}
+.rightside_shopcar .line{
+	width:16px;
+	color:white;
+	padding-top:8px; 
+	margin:0 auto;
+	font-family:"Microsoft YaHei";
+}
+.rightside_shopcar .car{
+	background:url("img/shopping_cart.png") no-repeat;
+	width:26px;
+	height: 20px;
+	background-size: 26px 20px;
+}
+.rightside_money .money{
+	width:34px;
+	height:34px;
+	background: url("img/下载 (1).png") no-repeat;
+	background-size: 34px 34px;	
+}
+.rightside_star .star{
+	width:34px;
+	height:34px;
+	background: url("img/下载 (2).png") no-repeat;
+	background-size: 34px 34px;	
+}
+.rightside_clock .clock{
+	width:34px;
+	height:34px;
+	background: url("img/下载 (3).png") no-repeat;
+	background-size: 34px 34px;	
+}
+.rightside_pay .pay{
+	width:34px;
+	height:34px;
+	background: url("img/下载 (4).png") no-repeat;
+	background-size: 34px 34px;	
+}
+.rightside .rightside_pay{
+	margin-bottom:80px;
+}
+.rightside_feedback .feedback{
+	width:34px;
+	height:34px;
+	background: url("img/下载 (6).png") no-repeat;
+	background-size: 34px 34px;	
+}
+.rightside_code .code{
+	width:34px;
+	height:34px;
+	background: url("img/下载 (5).png") no-repeat;
+	background-size: 34px 34px;	
+}
+.rightside_top .top{
+	width:34px;
+	height:34px;
+	background: url("img/下载 (7).png") no-repeat;
+	background-size: 34px 34px;	
+}
+
+
+
